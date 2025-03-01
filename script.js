@@ -1,9 +1,9 @@
-let images = document.querySelectorAll('panel-1');
+let images = document.querySelectorAll('.panel');
 
 const expandImage = () => {
     images.forEach((image) => {
         image.addEventListener('click', () => {
-			image.classList.remove('active');
+			images.forEach((img) => img.classList.remove('active'));
             image.classList.add('active');
         })
     })
