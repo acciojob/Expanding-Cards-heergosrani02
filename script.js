@@ -1,4 +1,4 @@
-let images = document.querySelectorAll('.panel-1');
+let images = document.querySelectorAll('panel-1');
 
 const expandImage = () => {
     images.forEach((image) => {
