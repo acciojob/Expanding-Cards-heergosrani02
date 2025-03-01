@@ -1,1 +1,31 @@
 /*  your css code here. If applicable */
+.container{
+    display: flex;
+    gap: 4px;
+    width: 800px;
+    height: 350px;
+}
+
+.panel{
+    width: 55px;
+    height: 300px;
+    border-radius: 30px;
+}
+
+.img-text{
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    top: 280px;
+    left: 25px;
+	opacity: 0;
+}
+
+.active{
+    width: 100%;
+    transition: 1s ease-in-out;
+}
+
+.active .img-text{
+	opacity: 1;
+}
